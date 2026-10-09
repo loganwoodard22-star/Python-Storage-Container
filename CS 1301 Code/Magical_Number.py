@@ -1,0 +1,5 @@
+full_number=int(input("Please enter a three digit number and see if it is a reverse magical number: "))
+if full_number == 0 or full_number == 1 or full_number == 2 or full_number == 3 or full_number == 4 or full_number == 5 or full_number == 6 or full_number == 7 or full_number == 8 or full_number == 9 or full_number == 100 or full_number == 111 or full_number == 122 or full_number == 133 or full_number == 144 or full_number == 155 or full_number == 166 or full_number == 177 or full_number == 188 or full_number == 199 or full_number == 200 or full_number == 221 or full_number == 242 or full_number == 263 or full_number == 284 or full_number == 300 or full_number == 331 or full_number == 362 or full_number == 393 or full_number == 400 or full_number == 441 or full_number == 482 or full_number == 500 or full_number == 551 or full_number == 600 or full_number == 661 or full_number == 700 or full_number == 771 or full_number == 800 or full_number == 881 or full_number == 900 or full_number == 991:
+    print("Your number is a reverse magicial number")
+else:
+    print("Your number is not a reverse magicial number")
